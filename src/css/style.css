@@ -35,8 +35,8 @@ main .cartao-pokemon:hover {
   cursor: pointer;
 }
 
-main {  
-	padding: 25px;
+main {
+  padding: 25px;
 }
 
 main .listagem-pokemon {
@@ -66,20 +66,53 @@ main .cartao-pokemon:hover {
   background-color: #a8a8a8;
 }
 
-/*
- .grama {
+main .cartao-pokemon .informacoes {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #333333;
+  border-radius: 10px;
+}
+
+main .cartao-pokemon .informacoes span {
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+main .cartao-pokemon .gif {
+  width: 90px;
+  height: 90px;
+}
+
+main .cartao-pokemon .tipos {
+  display: flex;
+  gap: 15px;
+}
+
+main .cartao-pokemon .tipos .tipo {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+main .cartao-pokemon .tipos .grama {
   background-color: #7ac74c;
 }
-.veneno {
+main .cartao-pokemon .tipos .veneno {
   background-color: #df67ddfb;
 }
-.fogo {
+main .cartao-pokemon .tipos .fogo {
   background-color: #ee8130;
 }
-.agua {
+main .cartao-pokemon .tipos .agua {
   background-color: #6390f0;
 }
-.inseto {
+main .cartao-pokemon .tipos .inseto {
   background-color: #a6b91a;
-} 
-*/
+}
+
+main .cartao-pokemon .descricao {
+  max-height: 80px;
+  overflow-y: scroll;
+  font-size: 14px;
+  padding-right: 10px;
+}
